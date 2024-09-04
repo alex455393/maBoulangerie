@@ -1,0 +1,53 @@
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#portion1{
+    height: 100vh;
+    background-image: url(l.JPEG);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+	
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#portion2{
+   
+    background-color: rgb(116, 114, 114);
+    
+}
+h1{
+    font-style: Georgia;
+    color: whitesmoke;
+    size: 10px;
+}
+p{
+    color: whitesmoke;
+}
+button{
+    border-radius: 3cm;
+    width: 4cm;
+    height: 2cm;
+    margin-top: 40px;
+    border: none;
+}
+form{
+    
+    font: calibri;
+    border: 2px solid goldenrod;
+    width: 12cm;
+    height: 13cm;
+    background-color: whitesmoke;
+    border-radius: 2cm;
+    border: none;
+    background-image: url(m.JPEG);
+    background-repeat: none;
+    background-size: contain;
+    
+}
