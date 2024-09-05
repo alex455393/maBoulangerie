@@ -30,7 +30,7 @@ h1{
 p{
     color: whitesmoke;
 }
-button{
+#button1{
     border-radius: 3cm;
     width: 4cm;
     height: 2cm;
@@ -50,4 +50,32 @@ form{
     background-repeat: none;
     background-size: contain;
     
+}
+h2{
+    font-style: Times ;
+}
+.bt:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-decoration-color: none;
+    transform: scale(1.2);
+	transition: ease .4s;
+    
+
+}
+.label{
+    border-radius: 3cm;
+    height: 1cm;
+    width: 4cm;
+    border-color: gold;
+}
+#button2{
+    border-radius: 3cm;
+    width: 2cm;
+    height: .6cm;
+    margin-top: 40px;
+    border-color: gold;
+    transform: scale(1.4);
+
 }

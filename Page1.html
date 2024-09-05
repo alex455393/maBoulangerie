@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document 1</title>
+	<link rel="stylesheet" href="<style.css">
+	<style type="text/css">
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box; 
+		}
+		body{
+			font-family: Arial, sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #0b1f2f;
+		}
+		.container{
+			display: flex;
+			width: 100%;
+			max-width: 900px;
+			height: 80%;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+			border-radius: 20px;
+			overflow: hidden;
+		}
+		.left-section{
+			flex: 1;
+			background: url('13.jfif')no-repeat center center/cover;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 80px;
+			color: white;
+			text-align: center;
+			border-radius: 20px;
+			height: 110%;
+		}
+		.Left-section h1{
+			font-size: 5.5rem;
+			margin-bottom: 10px;
+		}
+		.Left-section p{
+			font-size: 1.2rem;
+		}
+		.right-section{
+			flex: 1;
+			background-color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 80px;
+			height: 100%;
+		}
+		.signup-form{
+			width: 80%;
+			padding: 10px;
+		}
+		.signup-form h2{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.signup-form input{
+			padding: 10px;
+			margin-bottom: 15px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			font-size: 1rem;
+		}
+		.signup-form label{
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+		.signup-form label input{
+			margin-right: 10px;
+		}
+		.signup-form button{
+			padding: 10px 20px;
+			background-color: black;
+			color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 10px;
+		}
+		.signup-form button:hover{
+			background-color: #333;
+		}
+		.or-divider{
+			text-align: center;
+			margin:10px 0;
+			color: #aaa;	
+		}
+		.google-btn, .apple-btn{
+			padding: 10px;
+			font-size: 1rem;
+			background-color: white;
+			border:1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-bottom: 10px;
+		}
+		.google-btn:hover, .apple-btn:hover{
+			background-color: #f0f0f0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left-section">
+			<h1>CREATE YOUR ACCOUNT</h1>
+			<p>share your artwork and get projets!</p>
+		</div>
+	    <div class="right-section">
+	    	<form class="signup-form">
+	    		<h2>SIGN UP</h2>
+	    	  	<input type="text" placeholder="First name" required>
+	    	  	<input type="text" placeholder="Last name" required>
+	    	  	<input type="text" placeholder="Email adress" required>
+	    	  	<input type="text" placeholder="Password"required>
+	    	    <label>
+	    	        <input type="checkbox" required>Accepter les termes et conditions
+	    	    </label>
+    	        <button type="submit">Join us</button>
+    			<div class="or-diriver">or</div>
+                <button class="google-btn">Sign up with Google</button>
+                <button class="Apple-btn">Sign un with Apple</button>
+	        </form>       
+	    </div>
+	</div>	
+</body>
+</html>
